@@ -1,12 +1,14 @@
+import React from "react";
 import logo from "./logo.svg";
-import "./App.css";
-import Navbar from "./components/navbar";
+import Navbar from "./components/navbar/nav.jsx";
+/* import Navbar from "./components/navbar/nav.jsx"; */
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
       <Navbar />
+      {/* <Navbar /> */}
+      <h1 className="test">App js</h1>
     </div>
   );
 }
